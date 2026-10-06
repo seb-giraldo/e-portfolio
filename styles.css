@@ -437,9 +437,10 @@ footer {
 }
 
 .footer__logo--img {
-  width: 100px;
-  height: 100px;
+  width: 32px;
+  height: 32px;
   filter: invert(100%);
+  margin-bottom: 16px;
 }
 
 .footer__social--list {
