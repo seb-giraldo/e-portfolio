@@ -154,9 +154,15 @@ h1 {
 
 /* NAVIGATION BAR */
 
+.nav__container {
+  height: 80px;
+  background-color: rgb(253, 240, 225);
+  margin: 0 auto;
+}
+
 nav {
-  height: 100px;
   width: 100%;
+  height: 100%;
   max-width: 1300px; /*sets width of whole nav*/
   padding: 0 12px;
   margin: auto;
@@ -199,7 +205,7 @@ nav {
 /* ABOUT ME */
 
 #about-me {
-  min-height: 100vh;
+  min-height: calc(100vh - 80px);
   display: flex;
   flex-direction: column;
 }
@@ -217,6 +223,7 @@ nav {
 .about-me__picture--mask {
   width: 125px;
   height: 125px;
+  margin-top: 8px;
   border-radius: 50%;
   overflow: hidden;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16);
@@ -308,6 +315,7 @@ nav {
   justify-content: center;
   width: 100%;
   flex-wrap: wrap;
+  margin-bottom: 16px;
 }
 
 .language__name {
