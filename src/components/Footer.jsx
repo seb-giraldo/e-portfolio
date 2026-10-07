@@ -37,7 +37,7 @@ const Footer = () => {
             Email
           </a>
           <a
-            href="/resume.pdf"
+            href="/Sebastian Giraldo Resume.pdf"
             target="_blank"
             class="footer__social--link link__hover-effect link__hover-effect--white"
           >

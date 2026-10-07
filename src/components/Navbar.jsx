@@ -22,7 +22,7 @@ const Navbar = () => {
           </li>
           <li className="nav__link">
             <a
-              href="/resume.pdf"
+              href="/Sebastian Giraldo Resume.pdf"
               target="_blank"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
             >
