@@ -440,7 +440,7 @@ footer {
   width: 32px;
   height: 32px;
   filter: invert(100%);
-  margin-bottom: 16px;
+  margin: 16px 0;
 }
 
 .footer__social--list {
