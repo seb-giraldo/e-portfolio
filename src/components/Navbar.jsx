@@ -22,6 +22,15 @@ const Navbar = () => {
           </li>
           <li className="nav__link">
             <a
+              href="/resume.pdf"
+              target="_blank"
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+            >
+              Resume
+            </a>
+          </li>
+          <li className="nav__link">
+            <a
               href="mailto:sebastiangiraldo96@gmail.com"
               className="nav__link--anchor nav__link--anchor-primary"
             >

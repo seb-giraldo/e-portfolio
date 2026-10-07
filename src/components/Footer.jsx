@@ -37,10 +37,9 @@ const Footer = () => {
             Email
           </a>
           <a
-            href="./assets/resume.pdf"
-            class="footer__social--link link__hover-effect link__hover-effect--white"
+            href="/resume.pdf"
             target="_blank"
-            download
+            class="footer__social--link link__hover-effect link__hover-effect--white"
           >
             Resume
           </a>
