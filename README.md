@@ -1,16 +1,25 @@
-# React + Vite
+# Sebastian Giraldo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontend software engineer focused on building intuitive, accessible, and engaging web experiences. This repository contains my personal portfolio: a place to learn about me, explore my work, and get in touch.
 
-Currently, two official plugins are available:
+## Featured projects
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+| Project | What it is | Built with |
+| --- | --- | --- |
+| [Skinstric AI](https://skinstricskincare.vercel.app/) | AI-powered skincare recommendation platform. I built frontend pages, animations, the webcam experience, and account demographics features during my internship. | Next.js, TypeScript, Tailwind CSS, Redux |
+| [Summarist](https://summaristbooks.vercel.app/) | Audiobook discovery and listening app with accounts, favorites, and subscriptions. | React, TypeScript, Firebase, Stripe |
+| [SebFlix](https://sebflix.vercel.app/) | Movie discovery app that retrieves film information from OMDb. | React, JavaScript, CSS |
+| [YouTube Clone](https://youtube-clone-seb-giraldo.vercel.app/) | Video browsing experience with search and category selection. | React, JavaScript, CSS |
 
-## React Compiler
+## Technology stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React · JavaScript · TypeScript · HTML · CSS · Next.js · Tailwind CSS · Redux
 
-## Expanding the ESLint configuration
+## Find me
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [GitHub](https://github.com/seb-giraldo)
+- [LinkedIn](https://www.linkedin.com/in/sebastian-giraldo-mejia/)
+- [Email](mailto:sebastiangiraldo96@gmail.com)
+- [Resume](./public/Sebastian%20Giraldo%20Resume.pdf)
+
+The portfolio website is built with React and Vite. Its project listings are maintained in [`PROJECT_LIST.js`](./PROJECT_LIST.js).
