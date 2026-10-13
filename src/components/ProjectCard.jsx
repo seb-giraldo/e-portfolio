@@ -19,38 +19,58 @@ const ProjectCard = ({ project, fadeDirection }) => {
           alt="portfolio"
         />
         <div className="project__description">
-          <h3 className="project__description--title">{project.title}</h3>
-          <h4 className="project__description--sub-title">
-            {project.languages}
-          </h4>
-          <p
-            className="project__description--para"
-            dangerouslySetInnerHTML={{ __html: project.description }}
-          />
-          <div className="project__description--links">
-            <a
-              href={project.github}
-              target="_blank"
-              className="project__description--link"
-            >
-              <FontAwesomeIcon icon={faGithub} />
-            </a>
-            <a
-              href={project.projectLink}
-              target="_blank"
-              className="project__description--link"
-            >
-              <FontAwesomeIcon icon={faLink} />
-            </a>
-            {project.companyPage && (
+          <div className="project__description--left-wrapper">
+            <h3 className="project__description--title">{project.title}</h3>
+            <h4 className="project__description--sub-title">
+              {project.languages}
+            </h4>
+            <p
+              className="project__description--para"
+              dangerouslySetInnerHTML={{ __html: project.description }}
+            />
+          </div>
+          <div className="project__description--right-wrapper">
+            <figure className="description__img--wrapper">
+              <img
+                src={`${project.image}`}
+                alt="Project Screenshot"
+                className="description__img"
+              />
+            </figure>
+            <div className="project__description--links">
               <a
-                href={project.companyPage}
+                href={project.github}
                 target="_blank"
                 className="project__description--link"
               >
-                <FontAwesomeIcon icon={faBuilding} />
+                <FontAwesomeIcon icon={faGithub} />
+                <span className="project__description--label">
+                  <span>GitHub Link</span>
+                </span>
               </a>
-            )}
+              <a
+                href={project.projectLink}
+                target="_blank"
+                className="project__description--link"
+              >
+                <FontAwesomeIcon icon={faLink} />
+                <span className="project__description--label">
+                  <span>Live Demo</span>
+                </span>
+              </a>
+              {project.companyPage && (
+                <a
+                  href={project.companyPage}
+                  target="_blank"
+                  className="project__description--link"
+                >
+                  <FontAwesomeIcon icon={faBuilding} />
+                  <span className="project__description--label">
+                    <span>Company Page</span>
+                  </span>
+                </a>
+              )}
+            </div>
           </div>
         </div>
       </div>

@@ -28,9 +28,10 @@ const App = () => {
                 <strong className="text--green">
                   &nbsp;Junior Frontend Software Engineer&nbsp;
                 </strong>
-                looking to add a keen eye and attention to detail to your team.
-                I am passionate about creating intuitive, interesting, and
-                accessible web experiences that users love. <br />
+                who builds responsive web apps with React, Next.js, TypeScript
+                and Tailwind CSS. I am passionate about creating intuitive,
+                interesting, and accessible web experiences that users love.{" "}
+                <br />
                 Let's get to work!
               </p>
               <div className="about-me__links">

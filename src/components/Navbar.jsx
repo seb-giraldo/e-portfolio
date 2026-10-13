@@ -9,7 +9,7 @@ const Navbar = () => {
               href="#languages"
               className="nav__link--anchor link__hover-effect link__hover-effect--black"
             >
-              Languages
+              Tech Stack
             </a>
           </li>
           <li className="nav__link">

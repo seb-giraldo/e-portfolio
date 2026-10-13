@@ -23,7 +23,7 @@ const skinstric = new Project(
   "Skinstric AI",
   "skinstric.JPG",
   "Next.js, TypeScript, Tailwind CSS, Redux, Axios",
-  `<a href=https://skinstric.ai target="_blank" style="color: white">Skinstric.ai</a > is an AI-driven skincare recommendation platform that recommends skincare products based off its AI detection model.<br/><br/>Internship experience: At Skinstric.ai, I developed a functional frontend interface and backend features for the AI detection model including all pages, animations, webcam module, and account demogrpahics interface.<br/><br/>Utilized Redux for account-wide user demographics tracking.`,
+  `<a href=https://skinstric.ai target="_blank" style="color: white">Skinstric.ai</a > is an AI-driven skincare recommendation platform that recommends skincare products based off its AI detection model.<br/><br/>Internship experience: At Skinstric.ai, I developed a functional frontend interface and backend features for the AI detection model including all pages, animations, webcam module, and account demographics interface.<br/><br/>Utilized Redux for account-wide user demographics tracking.`,
   "https://github.com/seb-giraldo/skinstric-internship",
   "https://skinstricskincare.vercel.app/",
   "https://skinstric.ai/",
