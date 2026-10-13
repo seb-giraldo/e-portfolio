@@ -176,6 +176,7 @@ nav {
 }
 
 .nav__link--anchor {
+  text-wrap: nowrap;
   margin: 0 12px;
   color: #242424;
   text-decoration: none;
@@ -559,17 +560,45 @@ footer {
     width: calc(100% / 3);
   }
 
+  .project__description:first-child > p {
+    display: none;
+  }
+
   .project__description--para {
     font-size: 14px;
+    line-height: 1.3 !important;
   }
 
   .project__description {
-    left: 80px;
+    flex-direction: column;
+    left: 50px;
     padding-right: 30px;
+  }
+
+  .project__description--title {
+    font-size: 20px;
+  }
+
+  .project__description--sub-title {
+    font-size: 14px;
+  }
+  .project__description--left-wrapper {
+    width: 80%;
+    padding: 0;
+  }
+
+  .project__description--right-wrapper {
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .description__img--wrapper {
+    display: none;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 580px) {
   .nav__link:not(:last-child) {
     display: none;
   }
